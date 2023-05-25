@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box;
+}
+*:focus{
+	outline: none;
+}
+body{
+	font-family: Arial;
+	background: linear-gradient(90deg, rgba(88,235,251,1) 0%, rgba(217,251,255,1) 50%, rgba(107,240,255,1) 100%);
+	padding: 50px;
+}
+.order{
+	margin: 20px auto;
+	width: 300px;
+}
+.order-screen{
+	background: white;
+	padding: 20px;
+	border-radius: 5px;
+}
+.app-title{
+	text-align: center;
+	color: #949494;
+}
+.order-form{
+	text-align: center;
+}
+.control-group{
+	margin-bottom: 10px;
+}
+input{
+	text-align: center;
+	background-color: #f7f7f7;
+	border: 2px solid #dbdbdb;
+	border-radius: 4px;
+	font-size: 16px;
+	padding: 10px 0px;
+	width: 250px;
+}
+input:focus{
+	border: 2px solid #58ebfb;
+	box-shadow: none;
+}
+.btn{
+	border: 2px solid transparent;
+	background: #98f5ff;
+	color: black;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px;
+	text-decoration: none;
+	text-shadow: none;
+	border-radius: 5px;
+	transition: 0.25s;
+}
+.btn:hover{
+	background-color: #caf8fc;
+}
